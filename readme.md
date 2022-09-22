@@ -8,7 +8,7 @@ by Divesh Thakre
 
 ![preview](./images/12.png)
 
-[Deployed link ](https://divesh10.netlify.app/)
+[Deployed link ](https://divesh15.netlify.app/)
 
 ## what concepts i Learned by Creating this website?
 
