@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #0199ff;
+}
+
+body {
+  background-color: #f1f1f1;
+  color: #080808;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+  padding: 6rem 0;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.main {
+  background-color: #5c656d;
+  padding: 2rem 4rem;
+
+  min-height: 90vh;
+}
+
+header img {
+  height: 2.5rem;
+}
+
+/* --- headder-section------------ */
+/* ------------------------------ */
+
+header {
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-section p {
+  color: #fff;
+}
+
+.list-items {
+  margin-right: 2rem;
+}
+
+.logo {
+  flex-grow: 2;
+}
+
+.btn {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background-color: transparent;
+  padding: 0.8rem 1.8rem;
+  border-radius: 0.3rem;
+  font-weight: 800;
+}
+
+/* * ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero-section {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  margin-top: 5rem;
+  flex-direction: row;
+}
+
+.image-sec img {
+  height: 23rem;
+  width: 23rem;
+}
+
+.right-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.right-sec h1 {
+  font-size: 3rem;
+}
+
+.right-sec p {
+  line-height: 1.5rem;
+  color: #f1f1f1ab;
+}
+
+.sub-heading {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 1.2rem;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+  margin: 5rem 0;
+}
+
+.count {
+  text-align: center;
+}
+
+.number {
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 0.8rem;
+}
+
+p {
+  font-weight: 800;
+  color: #000000b2;
+}
+
+/* * ------------------------------  */
+/* ---------- Banner ------------ */
+/* ------------------------------ */
+
+.poster {
+  align-items: center;
+  margin: 5rem 15rem;
+  display: grid;
+  place-items: center;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.section-2 {
+  margin: 7rem 0;
+  flex-direction: row-reverse;
+}
+
+.text-white {
+  color: #fff;
+}
+
+#text-black {
+  color: #1e1e1e;
+}
+
+.common-btn {
+  border: none;
+  color: #fff;
+  background-color: #008000c2;
+  padding: 1rem 1.5rem;
+  font-weight: 800;
+}
+
+.section-3 {
+  flex-direction: row;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+#image {
+  width: 100%;
+}
+
+/* * ------------------------------ */
+/* ----------TEAM-SECTION ------------ */
+/* ------------------------------ */
+
+.team-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 5rem;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h3 {
+  font-size: 2.3rem;
+}
+p {
+  line-height: 1.6rem;
+}
+
+.team-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin: 4rem 0;
+}
+
+.team-card img {
+  height: 25rem;
+}
+
+.team-card p {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  font-weight: 300;
+}
+h5 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin: 0.5rem 0;
+}
+
+/* * ------------------------------ */
+/* ---------- footer------------ */
+/* ------------------------------ */
+
+footer {
+  background: #030303;
+  color: #fff;
+  margin-top: 5rem;
+  padding: 2rem 4rem;
+}
+
+.footer-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-head img {
+  height: 1.5rem;
+  margin: 2rem 0.5rem;
+}
+
+h6 {
+  color: white;
+  font-size: 1rem;
+}
+.text-white {
+  color: #fff;
+}
+.linkss {
+  color: #f1f1f1bd;
+  font-size: 0.7rem;
+  margin-top: 0.3rem;
+}
+
+.row {
+  margin: 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+#link-head {
+  margin: 1rem 0;
+}
+
+/*----------- media querries--------*/
+
+@media screen and (max-width: 650px) {
+  html {
+    font-size: 80%;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .right-sec {
+    justify-content: center;
+    align-items: center;
+  }
+  .right-sec p {
+    text-align: center;
+  }
+  #mobile-font {
+    font-size: 3.2rem;
+    text-align: center;
+  }
+
+  .team-cards {
+    grid-template-columns: 1fr;
+  }
+  .team-card img {
+    height: 30rem;
+  }
+
+  .list {
+    display: none;
+  }
+
+  .team-sec {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .counter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+
+  footer {
+    padding: 1rem;
+  }
+
+  .row {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
